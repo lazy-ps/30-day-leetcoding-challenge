@@ -26,6 +26,7 @@ These problems are carefully hand-picked from LeetCode's curated collection of f
 
 문제가 올라온 후 24시간 내로 풀어야 보상(LeetCoins)을 받을 수 있으며, 시간이 지나도 문제를 풀 수는 있지만 보상은 없습니다.
 
+<br>
 
 # Problem
 
