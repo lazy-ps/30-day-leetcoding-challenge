@@ -6,6 +6,7 @@
 - 파일 이름은 영어이름 - *ex) woody.md*
 - **master** 에 직접 **merge** 하지 말고 원격 저장소에 브랜치 푸시 후 **Pull Request**
 - **Reviewer** 에 **ParkJiwoon** 추가 후 **PR** 날려주시면 머지 후 `README.md` 에서 **표(User, Submission, Code)** 에 반영
+- PR 메세지에 **Submission** 여부 
 
 <br>
 
