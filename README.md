@@ -28,12 +28,6 @@ These problems are carefully hand-picked from LeetCode's curated collection of f
 
 <br>
 
-# Rule
-
-[Rule](./Rule.md) 참고
-
-<br>
-
 # Problem
 
 Day  | Problem
