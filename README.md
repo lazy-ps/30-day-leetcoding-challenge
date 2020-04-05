@@ -36,7 +36,7 @@ Day  | Problem
 2 | [Happy Number](./2020-04-02/README.md)
 3 | [Maximum Subarray](./2020-04-03/README.md)
 4 | [Move Zeroes](./2020-04-04/README.md)
-5 |
+5 | [Best Time to Buy and Sell Stock II](./2020-04-05/README.md)
 6 |
 7 |
 8 |
