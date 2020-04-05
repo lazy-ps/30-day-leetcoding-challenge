@@ -8,4 +8,4 @@
 
 User  | Submission | Language
 :--:  | :--------: | :-----:
-박지운 | O          | [Java](./woody.md)
+woody | O          | [Java](./woody.md)
