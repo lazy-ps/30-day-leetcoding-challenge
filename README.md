@@ -37,7 +37,7 @@ Day  | Problem
 3 | [Maximum Subarray](./2020-04-03/README.md)
 4 | [Move Zeroes](./2020-04-04/README.md)
 5 | [Best Time to Buy and Sell Stock II](./2020-04-05/README.md)
-6 |
+6 | [Group Anagrams](./2020-04-06/README.md)
 7 |
 8 |
 9 |
