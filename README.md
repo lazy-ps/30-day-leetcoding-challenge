@@ -38,7 +38,7 @@ Day  | Problem
 4 | [Move Zeroes](./2020-04-04/README.md)
 5 | [Best Time to Buy and Sell Stock II](./2020-04-05/README.md)
 6 | [Group Anagrams](./2020-04-06/README.md)
-7 |
+7 | [Counting Elements](./2020-04-07/README.md)
 8 |
 9 |
 10 |
