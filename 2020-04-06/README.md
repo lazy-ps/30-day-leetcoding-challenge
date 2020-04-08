@@ -9,3 +9,4 @@
 User  | Submission | Language
 :--:  | :--------: | :-----:
 woody | O          | [Java](./woody.md)
+woody | O          | [python3](./puyo.py)
