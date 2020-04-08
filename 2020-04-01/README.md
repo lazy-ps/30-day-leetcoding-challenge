@@ -9,3 +9,4 @@
 User  | Submission | Language
 :--:  | :--------: | :-----:
 woody | O          | [Java](./woody.md)
+cprayer | O          | [Golang](./cprayer.md)
