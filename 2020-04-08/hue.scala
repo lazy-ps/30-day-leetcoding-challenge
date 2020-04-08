@@ -5,6 +5,11 @@
  *   var x: Int = _x
  * }
  */
+
+/**
+  리스트 size를 구한 후 중간에 해당하는 node 반환
+  O(n) (n: input 으로 주어지는 리스트의 size)
+*/
 object Solution {
   def middleNode(head: ListNode): ListNode = {
     val listSize = getNodeSize(head, 0)
