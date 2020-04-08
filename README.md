@@ -39,7 +39,7 @@ Day  | Problem
 5 | [Best Time to Buy and Sell Stock II](./2020-04-05/README.md)
 6 | [Group Anagrams](./2020-04-06/README.md)
 7 | [Counting Elements](./2020-04-07/README.md)
-8 |
+8 | [Middle of the Linked List](./2020-04-08/README.md)
 9 |
 10 |
 11 |
