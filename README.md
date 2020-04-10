@@ -41,7 +41,7 @@ Day  | Problem
 7 | [Counting Elements](./2020-04-07/README.md)
 8 | [Middle of the Linked List](./2020-04-08/README.md)
 9 | [Backspace String Compare](./2020-04-09/README.md)
-10 |
+10 | [Min Stack](./2020-04-10/README.md)
 11 |
 12 |
 13 |
