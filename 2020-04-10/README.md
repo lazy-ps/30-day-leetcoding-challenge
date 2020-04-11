@@ -9,3 +9,5 @@
 User  | Submission | Language
 :--:  | :--------: | :-----:
 woody | O          | [Java](./woody.md)
+aiden | O          | [Swift](./aiden.swift)
+puyo | O          | [cpp](./puyo.cpp)
