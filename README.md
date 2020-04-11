@@ -42,7 +42,7 @@ Day  | Problem
 8 | [Middle of the Linked List](./2020-04-08/README.md)
 9 | [Backspace String Compare](./2020-04-09/README.md)
 10 | [Min Stack](./2020-04-10/README.md)
-11 |
+11 | [Diameter of Binary Tree](./2020-04-11/README.md)
 12 |
 13 |
 14 |
