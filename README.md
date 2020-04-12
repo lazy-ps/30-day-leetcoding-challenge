@@ -43,7 +43,7 @@ Day  | Problem
 9 | [Backspace String Compare](./2020-04-09/README.md)
 10 | [Min Stack](./2020-04-10/README.md)
 11 | [Diameter of Binary Tree](./2020-04-11/README.md)
-12 |
+12 | [Last Stone Weight](./2020-04-12/README.md)
 13 |
 14 |
 15 |
