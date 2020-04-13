@@ -44,7 +44,7 @@ Day  | Problem
 10 | [Min Stack](./2020-04-10/README.md)
 11 | [Diameter of Binary Tree](./2020-04-11/README.md)
 12 | [Last Stone Weight](./2020-04-12/README.md)
-13 |
+13 | [Contiguous Array](./2020-04-13/README.md)
 14 |
 15 |
 16 |
