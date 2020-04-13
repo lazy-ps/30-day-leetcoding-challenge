@@ -3,6 +3,7 @@ object Solution {
   def findMaxLength(nums: Array[Int]): Int = {
     nums.zipWithIndex.foldLeft(Map[Int, Int](0 -> -1), 0, 0){ case ((map: Map[Int, Int], prevPreSum: Int, maxSubarraySize), (value: Int, idx: Int)) =>
       val currentPreSum = prevPreSum + (if(value == 1) 1 else - 1)
+      // map에 값이 있을 경우 map 을 업데이트 하지 않음
       map.get(currentPreSum).map { prevIdx =>
         val currentSubwArraySize = idx - prevIdx
         (map, currentPreSum, math.max(maxSubarraySize, currentSubwArraySize))
