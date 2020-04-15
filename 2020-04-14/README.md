@@ -1,6 +1,6 @@
 # Day 14 - Perform String Shifts
 
-![14-perform-string-shifts](../images/14-perform-string-shifts.png)
+![14-perform-string-shifts](../images/14-perform-string-shifts.PNG)
 
 <br>
 
