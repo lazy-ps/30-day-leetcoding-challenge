@@ -4,13 +4,13 @@
 
 <br><br>
 
-# Solution
+# Solution 1
 
 `Deque` 자료구조를 사용하여 문제에서 제시하는 대로 구현하면 됩니다.
 
 <br><br>
 
-# Java Code
+# Java Code 1
 
 ```java
 class Solution {
@@ -41,6 +41,39 @@ class Solution {
         }
 
         return sb.toString();
+    }
+}
+```
+<br><br><br>
+
+# Solution 2
+
+매번 `Deque` 로 `add`, `poll` 하지 않고 최종 움직임만 한번에 계산해서 답을 구할 수 있습니다.
+
+왼쪽은 -1, 오른쪽은 +1 로 하여 `move` 값을 구한 뒤 문자열의 시작 부분인 `start` 값을 구해
+
+`substring` 으로 답을 구합니다.
+
+<br><br>
+
+# Java Code 2
+
+```java
+class Solution {
+    public String stringShift(String s, int[][] shift) {
+        int move = 0;
+        int len = s.length();
+        
+        for (int[] shi : shift) {
+            int direction = (shi[0] == 0) ? -1 : 1;
+            int amount = shi[1];
+            
+            move += direction * amount;
+        }
+        
+        int start = (len - move % len) % len;
+        
+        return s.substring(start) + s.substring(0, start);
     }
 }
 ```
