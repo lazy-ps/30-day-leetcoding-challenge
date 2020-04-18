@@ -14,7 +14,7 @@
 
 # Solution 1
 
-백트래킹을 이용하여 구할 수 있지만 * 가 총 세 가지 케이스로 나뉘기 때문에 `O(3^n)` 의 시간복잡도를 가집니다.
+백트래킹을 이용하여 구할 수 있지만 * 가 총 세 가지 케이스로 나뉘기 때문에 O(3<sup>n</sup>) 의 시간복잡도를 가집니다.
 
 문자열의 최대 길이가 100 이기 때문에 시간이 굉장히 오래걸립니다.
 
@@ -56,7 +56,7 @@ class Solution {
 
 # Solution 2
 
-다른 방법을 생각하지 못하다가 결국 __Discuss__ 를 보았습니다.
+다른 방법을 생각하지 못하다가 결국  **_Discuss_** 를 보았습니다. [그림 출처](https://leetcode.com/problems/valid-parenthesis-string/discuss/543521/Java-Count-Open-Parenthesis-O(n)-time-O(1)-space-Clean-Explain)
 
 <br>
 
