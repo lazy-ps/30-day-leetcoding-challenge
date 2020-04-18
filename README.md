@@ -47,9 +47,9 @@ Day  | Problem
 13 | [Contiguous Array](./2020-04-13/README.md)
 14 | [Perform String Shifts](./2020-04-14/README.md)
 15 | [Product of Array Except Self](./2020-04-15/README.md)
-16 |
-17 |
-18 |
+16 | [Valid Parenthesis String](./2020-04-16/README.md)
+17 | [Number of Islands](./2020-04-17/README.md)
+18 | [Minimum Path Sum](./2020-04-18/README.md)
 19 |
 20 |
 21 |
