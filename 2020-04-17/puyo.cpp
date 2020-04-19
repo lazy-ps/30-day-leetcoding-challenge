@@ -1,3 +1,4 @@
+// dijkstra
 class Solution {
 public:
     const int DR[4] = {-1, 1, 0, 0};
@@ -34,5 +35,30 @@ public:
                 }
         
         return idx;
+    }
+};
+
+// dp
+class Solution {
+public:
+    vector<vector<int>> memoi;
+    
+    int dp(int r, int c, vector<vector<int>>& grid)
+    {
+        int &ret = memoi[r][c];
+        if(ret != -1) return ret;
+        
+        int up = r == 0 ? 987654321 : dp(r - 1, c, grid);
+        int left = c == 0 ? 987654321 : dp(r, c - 1, grid);
+        
+        return ret = min(up, left) + grid[r][c];
+    }
+    
+    int minPathSum(vector<vector<int>>& grid) {
+        int R = grid.size(), C = grid[0].size();
+        memoi.assign(R, vector<int>(C, -1));
+        memoi[0][0] = grid[0][0];
+        
+        return dp(R - 1, C - 1, grid);
     }
 };
