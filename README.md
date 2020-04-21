@@ -52,7 +52,7 @@ Day  | Problem
 18 | [Minimum Path Sum](./2020-04-18/README.md)
 19 |
 20 |
-21 |
+21 | [Leftmost Column with at Least a One](./2020-04-21/README.md)
 22 |
 23 |
 24 |
