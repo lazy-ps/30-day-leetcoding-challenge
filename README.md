@@ -55,7 +55,7 @@ Day  | Problem
 21 | [Leftmost Column with at Least a One](./2020-04-21/README.md)
 22 | [Subarray Sum Equals K](./2020-04-22/README.md)
 23 | [Bitwise AND of Numbers Range](./2020-04-23/README.md)
-24 |
+24 | [LRU Cache](./2020-04-24/README.md)
 25 |
 26 |
 27 |
