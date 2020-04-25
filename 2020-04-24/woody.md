@@ -83,11 +83,88 @@ class LRUCache extends LinkedHashMap<Integer, Integer> {
 
 # Solution 2
 
+정해는 **_Double Linked List_** 를 만드는 겁니다.
+
+`HashMap<Integer, Node>` 를 선언하여 `key` 에 대해서 `Node` 를 저장해둡니다.
+
+`head` 와 `tail` 로 관리하며 새로운 노드를 추가하는 `vodi addNodeAfterHead(Node node)` 메소드는 항상 `head` 다음에 노드를 삽입합니다.
+
+`map` 의 크기가 `capacity` 를 넘어간다면 `tail` 바로 위에 있는 `tail.prev` 노드를 삭제하면 됩니다.
 
 <br><br>
 
 # Java Code 2
 
 ```java
+class LRUCache {
+    private class Node {
+        int key, value;
+        Node prev, next;
+        
+        Node(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
+    
+    Map<Integer, Node> map = new HashMap<>();;
+    Node head = new Node(0, 0);
+    Node tail = new Node(0, 0);
+    final int CAPACITY;
+    
+    public LRUCache(int capacity) {
+        CAPACITY = capacity;
+        head.next = tail;
+        tail.prev = head;
+    }
+    
+    public int get(int key) {
+        Node node = map.get(key);
+        
+        if (node == null) {
+            return -1;
+        }
+        
+        updateCache(node);
+        
+        return node.value;
+    }
+    
+    public void put(int key, int value) {
+        Node node = map.get(key);
+        
+        if (node != null) {
+            node.value = value;
+            updateCache(node);
+            return;
+        }
+        
+        Node newNode = new Node(key, value);
+        addNodeAfterHead(newNode);
+        map.put(key, newNode);
 
+        if (map.size() > CAPACITY) {
+            map.remove(tail.prev.key);
+            removeNode(tail.prev);
+        }
+    }
+    
+    private void updateCache(Node node) {
+        removeNode(node);
+        addNodeAfterHead(node);
+    }
+    
+    private void addNodeAfterHead(Node node) {
+        node.next = head.next;
+        head.next.prev = node;
+        
+        node.prev = head;
+        head.next = node;
+    }
+    
+    private void removeNode(Node node) {
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
+    }
+}
 ```
