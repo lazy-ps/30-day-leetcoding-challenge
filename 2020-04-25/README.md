@@ -1,4 +1,4 @@
-# Day 25 - LRU Cache
+# Day 25 - Jump Game
 
 [Problem Link](https://leetcode.com/problems/jump-game/)
 
