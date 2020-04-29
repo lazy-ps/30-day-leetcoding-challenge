@@ -8,3 +8,4 @@
 User  | Submission | Language
 :--:  | :--------: | :-----:
 woody | O          | [Java](./woody.md)
+puyo | O          | [cpp](./puyo.cpp)
