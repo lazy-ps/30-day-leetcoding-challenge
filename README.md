@@ -57,8 +57,8 @@ Day  | Problem
 23 | [Bitwise AND of Numbers Range](./2020-04-23/README.md)
 24 | [LRU Cache](./2020-04-24/README.md)
 25 | [Jump Game](./2020-04-25/README.md)
-26 |
-27 |
-28 |
-29 |
+26 | [Longest Common Subsequence](./2020-04-26/README.md)
+27 | [Maximal Square](./2020-04-27/README.md)
+28 | [First Unique Number](./2020-04-28/README.md)
+29 | [Binary Tree Maximum Path Sum](./2020-04-29/README.md)
 30 |
