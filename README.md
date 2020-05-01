@@ -61,4 +61,4 @@ Day  | Problem
 27 | [Maximal Square](./2020-04-27/README.md)
 28 | [First Unique Number](./2020-04-28/README.md)
 29 | [Binary Tree Maximum Path Sum](./2020-04-29/README.md)
-30 |
+30 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](./2020-04-30/README.md)
