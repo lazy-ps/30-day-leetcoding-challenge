@@ -17,8 +17,5 @@ object Solution {
     }
     getLCS(A.length - 1, B.length - 1)
   }
-
-  def main(args: Array[String]): Unit = {
-    println("a" * 5)
-  }
+  
 }
