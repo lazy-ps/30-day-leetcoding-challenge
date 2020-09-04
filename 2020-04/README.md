@@ -1,5 +1,3 @@
-# Problem
-
 Day  | Problem
 :--: | --
 1 | [Single Number](./2020-04-01/README.md)
