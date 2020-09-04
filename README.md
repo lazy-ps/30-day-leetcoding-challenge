@@ -1,9 +1,5 @@
 # 30-Day LeetCoding Challenge
 
- [30-Day LeetCoding Challenge on our Explore Card section](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/)
-
-This 30-Day LeetCoding Challenge will **start from April 1st, 00:00 AM and end on April 30th, 23:59 PM in Pacific Standard Time.**
-
 These problems are carefully hand-picked from LeetCode's curated collection of frequently asked interview questions, including **5 brand-new problems.**
 
 1. **Valid challenge time period**: Each daily challenge is available from 00:00 AM to 23:59 PM Pacific Standard Time in the same day.
@@ -16,8 +12,6 @@ These problems are carefully hand-picked from LeetCode's curated collection of f
 
 # Summary
 
-2020년 4월 1일부터 2020년 4월 30일까지 리트코드에서 선정한 문제가 하루에 하나씩 나타탑니다.
-
 누구나 자유롭게 참가할 수 있으며, 따로 신청은 필요 없이 문제를 풀면 됩니다.
 
 제출 시간은 태평양 시간으로 **00:00 AM to 23:59 PM** 이며 한국 시간으로는 **17:00 PM 시작**입니다.
@@ -28,37 +22,13 @@ These problems are carefully hand-picked from LeetCode's curated collection of f
 
 <br>
 
-# Problem
+# Solutions
 
-Day  | Problem
-:--: | --
-1 | [Single Number](./2020-04-01/README.md)
-2 | [Happy Number](./2020-04-02/README.md)
-3 | [Maximum Subarray](./2020-04-03/README.md)
-4 | [Move Zeroes](./2020-04-04/README.md)
-5 | [Best Time to Buy and Sell Stock II](./2020-04-05/README.md)
-6 | [Group Anagrams](./2020-04-06/README.md)
-7 | [Counting Elements](./2020-04-07/README.md)
-8 | [Middle of the Linked List](./2020-04-08/README.md)
-9 | [Backspace String Compare](./2020-04-09/README.md)
-10 | [Min Stack](./2020-04-10/README.md)
-11 | [Diameter of Binary Tree](./2020-04-11/README.md)
-12 | [Last Stone Weight](./2020-04-12/README.md)
-13 | [Contiguous Array](./2020-04-13/README.md)
-14 | [Perform String Shifts](./2020-04-14/README.md)
-15 | [Product of Array Except Self](./2020-04-15/README.md)
-16 | [Valid Parenthesis String](./2020-04-16/README.md)
-17 | [Number of Islands](./2020-04-17/README.md)
-18 | [Minimum Path Sum](./2020-04-18/README.md)
-19 | [Search in Rotated Sorted Array](./2020-04-19/README.md)
-20 | [Construct Binary Search Tree from Preorder Traversal](./2020-04-20/README.md)
-21 | [Leftmost Column with at Least a One](./2020-04-21/README.md)
-22 | [Subarray Sum Equals K](./2020-04-22/README.md)
-23 | [Bitwise AND of Numbers Range](./2020-04-23/README.md)
-24 | [LRU Cache](./2020-04-24/README.md)
-25 | [Jump Game](./2020-04-25/README.md)
-26 | [Longest Common Subsequence](./2020-04-26/README.md)
-27 | [Maximal Square](./2020-04-27/README.md)
-28 | [First Unique Number](./2020-04-28/README.md)
-29 | [Binary Tree Maximum Path Sum](./2020-04-29/README.md)
-30 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](./2020-04-30/README.md)
+Year-Month  | Directory
+:--: | :--:
+2020-04 | [Go](./2020-04)
+2020-05 | [Go](./2020-05)
+2020-06 | 
+2020-07 | 
+2020-08 | [Go](./2020-08)
+2020-09 | [Go](./2020-09)
