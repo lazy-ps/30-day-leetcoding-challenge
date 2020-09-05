@@ -24,9 +24,11 @@ Medium 문제입니다.
 
 <br>
 
+![](./4-partition-labels.png)
+
 주어진 문자 `"ababcbacadefegdehijhklij"`  로 예를 들면 
 
-`"ababcbaca"` 문자열이 진행되는 동안 `farRight` 변수는 9 입니다.
+`"ababcbaca"` 문자열이 진행되는 동안 `farRight` 변수는 8 입니다.
 
 마지막 `'a'` 를 만나는 순간 `i == farRight` 가 되고 **지금까지 나온 문자들은 이후에는 절대 나오지 않는다** 라는 걸 알 수 있습니다.
 
