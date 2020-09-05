@@ -1,5 +1,7 @@
 # Largest Time for Given Digits
 
+- [Link](https://leetcode.com/explore/featured/card/september-leetcoding-challenge/554/week-1-september-1st-september-7th/3445/)
+
 Given an array of 4 digits, return the largest 24 hour time that can be made.
 
 The smallest 24 hour time is 00:00, and the largest is 23:59.  Starting from 00:00, a time is larger if more time has elapsed since midnight.
