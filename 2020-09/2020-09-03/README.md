@@ -13,7 +13,6 @@ Output: True
 
 Explanation: It's the substring "ab" twice.
 ```
-<br>
 
 ### Example 2:
 
@@ -22,7 +21,6 @@ Input: "aba"
 
 Output: False
 ```
-<br>
 
 ### Example 3:
 
