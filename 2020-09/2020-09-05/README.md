@@ -1,5 +1,7 @@
 # All Elements in Two Binary Search Trees
 
+- [Link](https://leetcode.com/explore/featured/card/september-leetcoding-challenge/554/week-1-september-1st-september-7th/3449/)
+
 Given two binary search trees `root1` and `root2`.
 
 Return a list containing all the integers from both trees sorted in **ascending** order.
